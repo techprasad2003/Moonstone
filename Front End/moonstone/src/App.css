@@ -1,0 +1,116 @@
+.App {
+  font-family: Arial, sans-serif;
+  width: auto;
+
+}
+
+section {
+  margin-top: 100px;
+  padding: 0px 0px;
+  text-align: center;
+  width: auto;
+  
+}
+
+
+
+
+
+
+
+/* Global Styling */
+html, body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(to right, #f9f5f4, #f5f1ee); /* Global gradient */
+  font-family: Arial, sans-serif;
+  box-sizing: border-box; /* Ensures padding doesn’t affect width */
+  overflow-x: hidden; /* Prevents horizontal scrollbars */
+}
+
+
+/* Full-Width Containers */
+.container {
+  width: 100%;
+  max-width: auto; /* Constrain maximum width for large screens */
+  margin: 0 auto; /* Center-align content */
+  padding: 0 0px; /* Add space on smaller screens */
+}
+
+
+
+
+
+
+
+
+html {
+  scroll-behavior: smooth;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
