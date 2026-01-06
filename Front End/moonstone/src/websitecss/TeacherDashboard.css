@@ -1,0 +1,96 @@
+/* Updated TeacherDashboard.css */
+
+/* General container */
+.dashboard-container {
+  padding: 20px;
+  text-align: center;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  max-width: 800px;
+  margin: 50px auto;
+  margin-top: 30px;
+}
+
+/* Title styles */
+.dashboard-container h2 {
+  font-size: 28px;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+/* Dashboard options */
+.dashboard-options {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 15px;
+}
+
+.dashboard-option button {
+  padding: 10px 20px;
+  background-color: #6c757d;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  font-size: 15px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.dashboard-option button:hover {
+  background-color: #5a6268;
+}
+
+@media screen and (max-width: 865px) {
+  .dashboard-container {
+      padding: 17px;
+      margin-top: 20px;
+      margin: 20px;
+  }
+
+  .dashboard-option button {
+      font-size: 14px;
+      padding: 8px 15px;
+  }
+
+  .dashboard-container h2 {
+      font-size: 24px;
+  }
+}
+
+
+/* Responsive design */
+@media screen and (max-width: 768px) {
+  .dashboard-container {
+      padding: 17px;
+      margin-top: 20px;
+      margin: 20px;
+  }
+
+  .dashboard-option button {
+      font-size: 14px;
+      padding: 8px 15px;
+  }
+
+  .dashboard-container h2 {
+      font-size: 24px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .dashboard-container {
+      padding: 10px;
+      margin: 20px;
+      
+  }
+
+  .dashboard-option button {
+      font-size: 16px;
+      padding: 6px 10px;
+  }
+
+  .dashboard-container h2 {
+      font-size: 20px;
+  }
+}

@@ -1,0 +1,168 @@
+
+/* Home Section Styling */
+/* Home Section Styling */
+/* Home Section Styling */
+.home-section {
+    position: relative;
+    width: 100%;
+    height: auto; /* Dynamic height based on content */
+    overflow: hidden; /* Prevent image overflow */
+    text-align: center; /* Ensures centered alignment */
+    margin-top: 10px;
+  }
+  
+  /* Content Box Positioned Above the Image */
+  .home-content-overlay {
+    position: relative; /* Positioned within the section */
+    z-index: 2; /* Ensures it appears above the image */
+    background: rgba(236, 227, 227, 0.8); /* Semi-transparent background for readability */
+    padding: 20px 20px;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Adds depth */
+    margin: -40px auto; /* Centers the content box */
+    max-width: 80%; /* Constrains width for larger screens */
+    margin-top: 10px;
+    
+  }
+  
+  .home-content-overlay h1,
+  .home-content-overlay h2 {
+    margin: 10px 0;
+    color: #333;
+  }
+  
+  .home-content-overlay p {
+    margin: 10px 0;
+    font-size: 1rem;
+    color: #555;
+  }
+  
+  /* Image Section */
+  .home-image-overlay {
+    position: relative;
+    width: 100%;
+    height: auto;
+    margin-left: 20px;
+  
+  }
+  
+  .home-img-full {
+    display: block;
+    width: 98%; /* Ensures the image is contained within its container */
+    height: auto;
+    object-fit: cover; /* Ensures the image fills the container proportionally */
+    object-position: center; /* Centers the image content */
+    margin: 0; /* Removes unnecessary margins */
+    border-radius: 10px;
+  }
+  
+  /* Buttons */
+  .home-buttons {
+    margin-top: 20px;
+  }
+  
+  .learn-more-btn {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: #007bff;
+    color: white;
+    transition: background-color 0.3s;
+  }
+  
+  .learn-more-btn:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 1024px) {
+    .home-content-overlay {
+      padding: 20px;
+      font-size: 1rem;
+    }
+  
+    .home-img-full {
+      object-position: center top; /* Focus on the top-center for medium screens */
+    }
+
+    .home-image-overlay {
+      position: relative;
+      width: 100%;
+      height: auto;
+      margin-left: 20px;
+    
+    }
+  }
+  
+  @media (max-width: 768px) {
+
+    .home-section {
+      position: relative;
+      width: 100%;
+      height: auto; /* Dynamic height based on content */
+      overflow: hidden; /* Prevent image overflow */
+      text-align: center; /* Ensures centered alignment */
+      margin-top: 10px;
+      margin-left: -12px;
+      margin-right: -12px;
+    }
+
+    .home-content-overlay {
+      font-size: 0.9rem;
+      padding: 15px;
+      margin-left: 40px;
+      margin-right: 1px;
+    }
+    .learn-more-btn {
+      padding: 8px 16px;
+      margin-bottom: 2px;
+    }
+
+    .home-img-full {
+      display: block;
+      width: 90%; /* Ensures the image is contained within its container */
+      height: auto;
+      object-fit: cover; /* Ensures the image fills the container proportionally */
+      object-position: center; /* Centers the image content */
+      margin: 0; /* Removes unnecessary margins */
+      border-radius: 10px;
+    }
+  }
+  
+  @media (max-width: 480px) {
+
+    .home-section {
+      position: relative;
+      width: 100%;
+      height: auto; /* Dynamic height based on content */
+      overflow: hidden; /* Prevent image overflow */
+      text-align: center; /* Ensures centered alignment */
+      margin-top: 20px;
+      margin-left: -12px;
+      margin-right: -12px;
+    }
+
+    .home-content-overlay {
+      font-size: 0.9rem;
+      padding: 15px;
+      margin-left: 25px;
+      margin-right: 1px;
+    }
+    .learn-more-btn {
+      padding: 8px 16px;
+      margin-bottom: 2px;
+    }
+
+    .home-img-full {
+      display: block;
+      width: 90%; /* Ensures the image is contained within its container */
+      height: auto;
+      object-fit: cover; /* Ensures the image fills the container proportionally */
+      object-position: center; /* Centers the image content */
+      margin: 0; /* Removes unnecessary margins */
+      border-radius: 10px;
+    }
+  }
+  

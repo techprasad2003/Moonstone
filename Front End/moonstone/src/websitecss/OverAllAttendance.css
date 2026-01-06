@@ -1,0 +1,188 @@
+/* OverAllAttendance.css */
+
+/* General styling */
+#over-all-attendance {
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 24px;
+    color: #333;
+}
+
+/* Drawer container for dropdowns and button */
+.drawer {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin-bottom: 20px;
+}
+
+/* Dropdown container styling */
+.dropdown {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.dropdown label {
+    font-weight: bold;
+    font-size: 16px;
+    color: #555;
+}
+
+.dropdown select {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 14px;
+    width: 100%;
+}
+
+/* Button styling */
+button {
+    padding: 12px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+    align-self: center;
+    max-width: 200px;
+    width: 100%;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+/* Error message styling */
+.error {
+    color: red;
+    text-align: center;
+    margin-top: 10px;
+}
+
+/* Attendance results table */
+.attendance-results table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+.attendance-results th,
+.attendance-results td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: center;
+    font-size: 14px;
+}
+
+.attendance-results th {
+    background-color: #f4f4f4;
+    font-weight: bold;
+}
+
+.delete-all-button {
+    margin-top: 20px;
+    padding: 10px 10px;
+    font-size: 1rem;
+    color: #fff;
+    background-color: #dc3545;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.delete-all-button:hover {
+    background-color: #c82333;
+}
+
+.delete-all-button:active {
+    background-color: #a71d2a;
+}
+
+@media screen and (max-width: 1059px) {
+    h1 {
+        font-size: 20px;
+    }
+
+    #over-all-attendance {
+        padding: 20px;
+        font-family: Arial, sans-serif;
+        max-width: 1000px;
+        margin: 0 auto;
+        
+    }
+
+    .drawer {
+        gap: 10px;
+        margin-right: 30px;
+    }
+
+    .dropdown select {
+        font-size: 14px;
+    }
+
+    button {
+        font-size: 14px;
+    }
+
+    .attendance-results th,
+    .attendance-results td {
+        font-size: 12px;
+        padding: 8px;
+    }
+}
+
+
+/* Responsive styling */
+@media screen and (max-width: 768px) {
+    h1 {
+        font-size: 20px;
+    }
+
+    #over-all-attendance {
+        padding: 20px;
+        font-family: Arial, sans-serif;
+        max-width: 1000px;
+        margin: 0 auto;
+        
+    }
+
+    .drawer {
+        gap: 10px;
+        margin-right: 30px;
+    }
+
+    .dropdown select {
+        font-size: 14px;
+    }
+
+    button {
+        font-size: 14px;
+    }
+
+    .attendance-results th,
+    .attendance-results td {
+        font-size: 12px;
+        padding: 8px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    h1 {
+        font-size: 18px;
+    }
+
+    button {
+        padding: 10px;
+    }
+}

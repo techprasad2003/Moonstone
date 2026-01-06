@@ -1,0 +1,194 @@
+/* Main Tutor Section Styling */
+.tutor-section {
+  padding: 50px 20px;
+  background: linear-gradient(to bottom right,rgb(236, 227, 227),rgb(236, 227, 227) );
+  color: #333;
+  margin: 20px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); /* Enhanced shadow for depth */
+}
+
+.tutor-header {
+  text-align: center;
+  margin-bottom: 30px;
+  
+}
+
+.tutor-header h2 {
+  font-size: 1.54rem;
+  font-weight: bold;
+  line-height: 1.5;
+  color: #000;
+  text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.2); /* Adds depth to the text */
+}
+
+.tutor-details {
+  display: flex;
+  align-items: center;
+  gap: 50px;
+  max-width: 1200px;
+  margin: 0 auto;
+  background-color: rgb(236, 227, 227);
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow for container */
+  padding: 30px;
+}
+
+.tutor-image-container {
+  flex: 1;
+}
+
+.tutor-image {
+  width: 100%;
+  max-width: 400px;
+  height: auto;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* Enhanced shadow for the image */
+  transition: transform 0.3s ease; /* Smooth hover effect */
+}
+
+.tutor-image:hover {
+  transform: scale(1.05); /* Slight zoom on hover */
+}
+
+.tutor-qualifications {
+  flex: 2;
+  text-align: left;
+  margin-left: 20px;
+}
+
+.tutor-qualifications h3 {
+  font-size: 1.5rem;
+  margin-bottom: 20px;
+  color: #333;
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+.tutor-qualifications ul {
+  list-style: none;
+  padding: 0;
+}
+
+.tutor-qualifications li {
+  font-size: 1.1rem;
+  margin-bottom: 15px;
+  color: #555;
+}
+
+.tutor-qualifications li strong {
+  color: #000;
+}
+
+.tutor-learn-button {
+  margin-top: 20px;
+}
+
+.learn-more-btn {
+  display: inline-block;
+  padding: 12px 25px;
+  font-size: 1rem;
+  font-weight: bold;
+  color: white;
+  background-color: #007bff; /* Vibrant blue for button */
+  text-decoration: none;
+  border-radius: 8px;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow for button */
+}
+
+.learn-more-btn:hover {
+  background-color: #0056b3; /* Darker blue on hover */
+  transform: translateY(-2px); /* Slight lift on hover */
+  box-shadow: 0 6px 10px rgba(0, 0, 0, 0.15); /* Enhance shadow on hover */
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .tutor-details {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .tutor-qualifications {
+    text-align: center;
+  }
+
+  .tutor-qualifications {
+    flex: 2;
+    text-align: left;
+    
+  }
+
+  .tutor-learn-button {
+    margin-top: 20px;
+    text-align: center;
+  }
+
+  .tutor-header h2 {
+    font-size: 1.7rem;
+    font-weight: bold;
+    line-height: 1.5;
+    color: #000;
+    text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.2); /* Adds depth to the text */
+  }
+  
+  .tutor-header h2 {
+    font-size: 1.54rem;
+    font-weight: bold;
+    line-height: 1.5;
+    color: #000;
+    text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.2); /* Adds depth to the text */
+  }
+}
+
+
+@media (max-width: 480px) {
+  .tutor-section {
+    padding: 50px 20px;
+    background: linear-gradient(to bottom right,rgb(236, 227, 227),rgb(236, 227, 227) );
+    color: #333;
+    margin: 10px;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); /* Enhanced shadow for depth */
+  }
+  
+  .tutor-header {
+    text-align: center;
+    margin-bottom: 30px;
+    
+  }
+  .tutor-details {
+    flex-direction: column;
+    text-align: center;
+    max-width: 100%;
+  }
+
+  
+
+  .tutor-qualifications {
+    flex: 2;
+    text-align: left;
+    
+  }
+
+  .tutor-learn-button {
+    margin-top: 20px;
+    text-align: center;
+  }
+
+  .tutor-header h2 {
+    font-size: 1.7rem;
+    font-weight: bold;
+    line-height: 1.5;
+    color: #000;
+    text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.2); /* Adds depth to the text */
+  }
+  
+  .tutor-header h2 {
+    font-size: 1.54rem;
+    font-weight: bold;
+    line-height: 1.5;
+    color: #000;
+    text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.2); /* Adds depth to the text */
+  }
+}

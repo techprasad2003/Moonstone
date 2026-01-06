@@ -1,0 +1,202 @@
+/* General Section Styling */
+.delete-attendance-page {
+  padding: 40px;
+  background-color: #f7f7f7;
+  border-radius: 10px;
+  max-width: 800px;
+  margin: 0 auto;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  margin-top: 20px;
+}
+
+.delete-attendance-page h2 {
+  font-size: 2rem;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+/* Form Styling */
+.selection-form {
+  margin: 20px 0;
+  text-align: left;
+}
+
+.selection-form label {
+  display: block;
+  font-size: 1rem;
+  font-weight: bold;
+  color: #444;
+  margin-bottom: 5px;
+}
+
+.selection-form select {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #fff;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.1);
+  outline: none;
+  transition: border-color 0.3s ease;
+}
+
+.selection-form select:focus {
+  border-color: #007bff;
+}
+
+/* Button Styling */
+.button-container {
+  display: flex;
+  flex-wrap: wrap; /* Ensures buttons adjust on smaller screens */
+  justify-content: center;
+  gap: 15px; /* Adds spacing between buttons */
+  margin-top: 20px;
+}
+
+.search-button,
+.delete-button {
+  display: inline-block;
+  padding: 10px 20px;
+  font-size: 1rem;
+  color: #fff;
+  background-color: #007bff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+  
+}
+
+.search-button:hover,
+.delete-button:hover {
+  background-color: #0056b3;
+  
+}
+
+.delete-button {
+  background-color: #dc3545;
+}
+
+.delete-button:hover {
+  background-color: #a71d2a;
+}
+
+/* Statistics Section */
+.statistics {
+  margin-top: 30px;
+  padding: 20px;
+  background-color: #fff;
+  border: 1px solid #eee;
+  border-radius: 10px;
+  box-shadow: 0 1px 6px rgba(0, 0, 0, 0.1);
+  text-align: left;
+}
+
+.statistics h3 {
+  font-size: 1.5rem;
+  color: #444;
+  margin-bottom: 15px;
+}
+
+.statistics p {
+  font-size: 1rem;
+  color: #555;
+  margin: 5px 0;
+}
+
+
+@media (max-width: 923px) {
+  .delete-attendance-page {
+    padding: 20px;
+    margin: 20px;
+  }
+
+  .selection-form select {
+    padding: 8px;
+    font-size: 0.9rem;
+  }
+
+  .search-button,
+  .delete-button {
+    padding: 8px 16px;
+    font-size: 0.9rem;
+  }
+
+  .statistics {
+    padding: 15px;
+  }
+
+  .statistics h3 {
+    font-size: 1.3rem;
+  }
+
+  .statistics p {
+    font-size: 0.9rem;
+  }
+}
+
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .delete-attendance-page {
+    padding: 20px;
+    margin: 20px;
+  }
+
+  .selection-form select {
+    padding: 8px;
+    font-size: 0.9rem;
+  }
+
+  .search-button,
+  .delete-button {
+    padding: 8px 16px;
+    font-size: 0.9rem;
+  }
+
+  .statistics {
+    padding: 15px;
+  }
+
+  .statistics h3 {
+    font-size: 1.3rem;
+  }
+
+  .statistics p {
+    font-size: 0.9rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .delete-attendance-page {
+    padding: 15px;
+    margin: 20px;
+  }
+
+  .delete-attendance-page h2 {
+    font-size: 1.5rem;
+  }
+
+  .selection-form select {
+    padding: 6px;
+    font-size: 0.85rem;
+  }
+
+  .search-button,
+  .delete-button {
+    padding: 6px 12px;
+    font-size: 0.85rem;
+  }
+
+  .statistics h3 {
+    font-size: 1.2rem;
+  }
+
+  .statistics p {
+    font-size: 0.85rem;
+  }
+}

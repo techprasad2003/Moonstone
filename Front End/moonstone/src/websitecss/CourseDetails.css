@@ -1,0 +1,148 @@
+/* Course Details Section */
+.course-details {
+  background: linear-gradient(to bottom, #f8f9fa, #e9ecef);
+  padding: 50px 20px;
+  font-family: 'Arial', sans-serif;
+}
+
+.course-details-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+/* Course Header */
+.course-header h2 {
+  font-size: 2rem;
+  color: #333;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.course-header p {
+  color: #555;
+  line-height: 1.6;
+  font-size: 1rem;
+  margin-bottom: 40px;
+}
+
+/* Course Highlights */
+.course-highlights h3 {
+  font-size: 1.8rem;
+  color: #444;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.course-highlights ul {
+  list-style: none;
+  padding: 0;
+  color: #555;
+  text-align: left;
+  max-width: 600px;
+  margin: 0 auto 40px;
+}
+
+.course-highlights ul li {
+  font-size: 1rem;
+  margin: 10px 0;
+  position: relative;
+  padding-left: 25px;
+}
+
+.course-highlights ul li::before {
+  content: '✔';
+  position: absolute;
+  left: 0;
+  color: #28a745;
+  font-size: 1.2rem;
+}
+
+/* Course Features */
+.course-features {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px;
+}
+
+.feature-card {
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  padding: 20px;
+  flex: 1 1 300px;
+  max-width: 300px;
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.feature-card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+}
+
+/* Video Element Styling */
+.feature-video {
+  width: 100%;
+  aspect-ratio: 9 / 16; /* Ensures a 9:16 aspect ratio */
+  border-radius: 10px;
+  margin-bottom: 15px;
+  object-fit: cover; /* Ensures the video fits nicely without distortion */
+  background-color: #000; /* Fallback for when the video is loading */
+}
+
+.feature-card h4 {
+  font-size: 1.2rem;
+  color: #007bff;
+  margin-bottom: 10px;
+}
+
+.feature-card p {
+  color: #555;
+  font-size: 0.9rem;
+  line-height: 1.4;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .course-highlights ul {
+      padding-left: 10px;
+  }
+
+  .feature-card {
+      height: auto;
+  }
+
+  .feature-video {
+      aspect-ratio: 9 / 16; /* Maintains the aspect ratio on smaller screens */
+      margin: 2px;
+  }
+}
+
+@media (max-width: 480px) {
+  
+  .course-header h2 {
+      font-size: 1.5rem;
+  }
+
+  .course-header p {
+      font-size: 0.9rem;
+  }
+
+  .course-highlights h3 {
+      font-size: 1.5rem;
+  }
+
+  .feature-card h4 {
+      font-size: 1rem;
+  }
+
+  .feature-card p {
+      font-size: 0.8rem;
+  }
+
+  .feature-video {
+      aspect-ratio: 9 / 16;
+  }
+}

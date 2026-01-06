@@ -1,0 +1,105 @@
+/* General container styles */
+.add-attendance-page {
+    max-width: 800px;
+    margin: 0 auto;
+    margin-top: 20px;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Heading styles */
+  .add-attendance-page h2 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;
+    font-family: 'Arial', sans-serif;
+  }
+  
+  /* Form styles */
+  .attendance-form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+  
+  .attendance-form label {
+    font-weight: bold;
+    color: #555;
+  }
+  
+  .attendance-form input[type="date"],
+  .attendance-form select {
+    padding: 8px 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    width: 100%;
+  }
+  
+  .attendance-form select {
+    appearance: none;
+    background: url('data:image/svg+xml;charset=US-ASCII,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"><path d="M4 6l4 4 4-4z" fill="%23999"/></svg>') no-repeat right 10px center;
+    background-color: white;
+  }
+  
+  /* Student list styles */
+  .student-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    background-color: #fff;
+    transition: background-color 0.3s ease;
+  }
+  
+  .student-item:hover {
+    background-color: #f0f0f0;
+  }
+  
+  .student-item input[type="checkbox"] {
+    transform: scale(1.2);
+    cursor: pointer;
+  }
+  
+  /* Submit button styles */
+  button {
+    padding: 10px 15px;
+    font-size: 16px;
+    font-weight: bold;
+    color: white;
+    background-color: #4caf50;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #45a049;
+  }
+  
+  @media screen and (max-width: 899px) {
+    .add-attendance-page {
+      padding: 15px;
+      margin: 20px;
+      
+    }
+  
+    .attendance-form input[type="date"],
+    .attendance-form select {
+      font-size: 14px;
+    }
+  
+    button {
+      font-size: 14px;
+      padding: 8px 12px;
+    }
+
+    
+  }
+  

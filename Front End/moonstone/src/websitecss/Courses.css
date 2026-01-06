@@ -1,0 +1,158 @@
+
+
+
+/* Main Courses Section Styling */
+
+
+.feature-icon {
+    font-size: 2.5rem; /* Adjust icon size */
+    color: #007bff; /* Blue color */
+    margin-bottom: 20px; /* Space between icon and title */
+  }
+  
+  
+  
+  .courses-section {
+    text-align: center;
+    padding: 80px 40px; /* Top and side spacing */
+    background-color: rgb(236, 227, 227); /* White background */
+    color: #333; /* Default text color */
+    margin: 20px; 
+    border-radius: 10px;
+  }
+  
+  .courses-header {
+    margin-bottom: 40px; /* Space between header and features */
+  }
+  
+  .courses-subtitle {
+    font-size: 1rem;
+    font-weight: bold;
+    color: #888; /* Subtle gray subtitle */
+    margin-bottom: 10px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+  }
+  
+  .courses-title {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: #000; /* Strong black for emphasis */
+  }
+  
+  .courses-description {
+    font-size: 1rem;
+    color: #666; /* Softer text color for descriptions */
+    margin-bottom: 40px;
+    line-height: 1.6;
+  }
+  
+  .courses-features {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    margin-bottom: 40px;
+    flex-wrap: wrap; /* Ensures layout is responsive */
+  }
+  
+  .feature-item {
+    max-width: 300px; /* Restricts the width of each feature box */
+    text-align: center;
+  }
+  
+  .feature-item h3 {
+    font-size: 1.25rem;
+    margin: 15px 0;
+    font-weight: bold;
+    color: #222; /* Darker text for feature titles */
+  }
+  
+  .feature-item p {
+    font-size: 1rem;
+    color: #555;
+    line-height: 1.5;
+  }
+  
+  .icon-placeholder {
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    margin: 0 auto 15px;
+    background-color: #ddd; /* Placeholder for the icon */
+    border-radius: 50%;
+  }
+  
+  .courses-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 20px; /* Adds space between buttons */
+  }
+  
+  .btn {
+    padding: 10px 20px;
+    font-size: 1rem;
+    font-weight: 500;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+  
+  .learn-more {
+    background-color: #007bff; /* Blue */
+  }
+  
+  .learn-more:hover {
+    background-color: #0056b3; /* Darker blue */
+  }
+  
+  .join {
+    background-color: #28a745; /* Green */
+  }
+  
+  .join:hover {
+    background-color: #218838; /* Darker green */
+  }
+  
+  @media (max-width: 768px) {
+    .courses-features {
+      flex-direction: column; /* Stacks feature items vertically */
+      align-items: center;
+    }
+  
+    .courses-buttons {
+      flex-direction: column;
+      gap: 10px; /* Reduced gap between buttons */
+    }
+  }
+
+  @media (max-width: 480px) {
+
+    
+  .courses-section {
+    text-align: center;
+    padding: 80px 40px; /* Top and side spacing */
+    background-color: rgb(236, 227, 227); /* White background */
+    color: #333; /* Default text color */
+    margin: 10px; 
+    border-radius: 10px;
+  }
+
+
+    .courses-features {
+      flex-direction: column; /* Stacks feature items vertically */
+      align-items: center;
+    }
+  
+    .courses-buttons {
+      flex-direction: column;
+      gap: 10px; /* Reduced gap between buttons */
+    }
+  }
+  
+  
+
+
+  

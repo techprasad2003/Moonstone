@@ -1,0 +1,67 @@
+
+
+/* App.css */
+
+/* Academy Details Page */
+.academy-details-container {
+    padding: 40px;
+    background-color: #fff;
+    max-width: 900px;
+    margin: 50px auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    font-family: Arial, sans-serif;
+  }
+  
+  .academy-details-container h2 {
+    text-align: center;
+    font-size: 32px;
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  .academy-info {
+    font-size: 16px;
+    color: #555;
+  }
+  
+  .academy-info h3 {
+    font-size: 24px;
+    color: #333;
+    margin-top: 20px;
+  }
+  
+  .academy-info p {
+    line-height: 1.6;
+    margin-bottom: 15px;
+  }
+  
+  .academy-info ul {
+    font-size: 16px;
+    color: #555;
+    list-style-type: square;
+    margin-left: 20px;
+  }
+  
+  .academy-info ul li {
+    margin-bottom: 10px;
+  }
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  

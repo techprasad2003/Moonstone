@@ -1,0 +1,205 @@
+/* General container styling */
+.view-attendance-page {
+  padding: 40px;
+  background-color: #f7f7f7;
+  border-radius: 10px;
+  max-width: 800px;
+  margin: 20px auto;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  transition: all 0.3s ease;
+}
+
+/* Page heading */
+.view-attendance-page h2 {
+  font-size: 2rem;
+  color: #333;
+  margin-bottom: 20px;
+  font-family: 'Roboto', sans-serif;
+}
+
+/* Drawer section */
+.drawer {
+  margin-bottom: 20px;
+  text-align: left;
+}
+
+.drawer label {
+  display: block;
+  font-size: 1rem;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.drawer select {
+  width: 100%;
+  padding: 10px;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  outline: none;
+  transition: border-color 0.3s ease;
+}
+
+.drawer select:focus {
+  border-color: #007bff;
+}
+
+/* Search button */
+.search-button {
+  display: inline-block;
+  padding: 10px 20px;
+  font-size: 1rem;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-bottom: 20px;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.search-button:hover {
+  background-color: #0056b3;
+  transform: translateY(-2px);
+}
+
+.search-button:active {
+  transform: translateY(1px);
+}
+
+/* Attendance list styling */
+.attendance-list {
+  text-align: left;
+  margin-top: 20px;
+}
+
+.attendance-list h3 {
+  font-size: 1.2rem;
+  color: #444;
+  margin-bottom: 10px;
+  border-bottom: 1px solid #ddd;
+  padding-bottom: 5px;
+}
+
+.attendance-list ul {
+  list-style: none;
+  padding: 0;
+}
+
+.attendance-list li {
+  font-size: 1rem;
+  margin-bottom: 5px;
+  padding: 8px;
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+}
+
+/* Attendance summary */
+.attendance-summary {
+  margin-top: 20px;
+  font-size: 1.1rem;
+  color: #555;
+}
+
+@media screen and (max-width: 910px) {
+  .view-attendance-page {
+    padding: 20px;
+    margin: 20px;
+  }
+
+  .view-attendance-page h2 {
+    font-size: 1.8rem;
+  }
+
+  .drawer select {
+    font-size: 0.95rem;
+    padding: 8px;
+  }
+
+  .search-button {
+    font-size: 0.95rem;
+    padding: 8px 15px;
+  }
+
+  .attendance-list h3 {
+    font-size: 1.1rem;
+  }
+
+  .attendance-list li {
+    font-size: 0.95rem;
+  }
+
+  .attendance-summary {
+    font-size: 1rem;
+  }
+}
+
+
+/* Responsive Design */
+@media screen and (max-width: 768px) {
+  .view-attendance-page {
+    padding: 20px;
+    margin: 20px;
+  }
+
+  .view-attendance-page h2 {
+    font-size: 1.8rem;
+  }
+
+  .drawer select {
+    font-size: 0.95rem;
+    padding: 8px;
+  }
+
+  .search-button {
+    font-size: 0.95rem;
+    padding: 8px 15px;
+  }
+
+  .attendance-list h3 {
+    font-size: 1.1rem;
+  }
+
+  .attendance-list li {
+    font-size: 0.95rem;
+  }
+
+  .attendance-summary {
+    font-size: 1rem;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .view-attendance-page {
+    padding: 15px;
+    margin: 20px;
+  }
+
+  .view-attendance-page h2 {
+    font-size: 1.5rem;
+  }
+
+  .drawer select {
+    font-size: 0.9rem;
+    padding: 7px;
+  }
+
+  .search-button {
+    font-size: 1rem;
+    padding: 7px 12px;
+  }
+
+  .attendance-list h3 {
+    font-size: 1rem;
+  }
+
+  .attendance-list li {
+    font-size: 0.9rem;
+  }
+
+  .attendance-summary {
+    font-size: 0.9rem;
+  }
+}

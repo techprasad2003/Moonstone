@@ -1,0 +1,129 @@
+/* Learning Section Styles */
+.learning-section {
+  padding: 50px 20px;
+  background-color: rgb(236, 227, 227);
+  color: #333;
+  margin: 20px;
+  border-radius: 10px;
+}
+
+.learning-header {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.learning-header h2 {
+  font-size: 1.5rem;
+  font-weight: bold;
+  line-height: 1.4;
+  color: #000;
+}
+
+.learning-cards {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  flex-wrap: wrap;
+}
+
+.learning-card {
+  background-color: #f9f9f9;
+  padding: 15px;
+  border-radius: 8px;
+  text-align: left;
+  flex: 1 1 30%;
+  max-width: 300px;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.learning-card:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.learning-image,
+.learning-video {
+  width: 100%;
+  aspect-ratio: 9 / 16;
+  border-radius: 8px;
+  margin-bottom: 10px;
+  border: none;
+}
+
+.learning-card h4 {
+  font-size: 1.1rem;
+  margin: 10px 0;
+  font-weight: bold;
+  color: #222;
+}
+
+.learning-card p {
+  font-size: 0.95rem;
+  color: #555;
+  line-height: 1.4;
+  margin-bottom: 10px;
+}
+
+.card-link {
+  display: inline-block;
+  font-size: 0.9rem;
+  font-weight: bold;
+  color: #007bff;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.card-link:hover {
+  color: #0056b3;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .learning-cards {
+      flex-direction: column;
+      gap: 20px;
+  }
+
+  .learning-card {
+      max-width: 100%;
+  }
+
+  .learning-header h2 {
+    font-size: 1.5rem;
+    font-weight: bold;
+    line-height: 1.4;
+    color: #000;
+  }
+  
+}
+
+@media (max-width: 480px) {
+  .learning-cards {
+      flex-direction: column;
+      gap: 20px;
+  }
+
+  .learning-card {
+      max-width: 100%;
+  }
+
+  
+.learning-section {
+  padding: 50px 20px;
+  background-color: rgb(236, 227, 227);
+  color: #333;
+  margin: 10px;
+  border-radius: 10px;
+}
+
+.learning-header h2 {
+  font-size: 1.5rem;
+  font-weight: bold;
+  line-height: 1.4;
+  color: #000;
+}
+
+}
+
+

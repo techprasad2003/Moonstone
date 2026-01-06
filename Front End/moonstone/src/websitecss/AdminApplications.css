@@ -1,0 +1,121 @@
+/* AdminApplications.css */
+
+/* General styling */
+.admin-applications {
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+h1 {
+    font-size: 28px;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+/* Buttons group styling */
+.buttons-group {
+    margin-bottom: 20px;
+}
+
+.action-button {
+    padding: 12px 20px;
+    background-color: rgb(22, 112, 237);
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.action-button:hover {
+    background-color: #584cdb;
+}
+
+/* Applications list */
+.applications-list {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+/* Individual application card */
+.application-card {
+    padding: 15px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    background-color: #f9f9f9;
+    text-align: left;
+}
+
+.application-card p {
+    margin: 5px 0;
+    font-size: 16px;
+}
+
+.application-card strong {
+    color: #333;
+}
+
+/* Card buttons */
+.card-buttons {
+    margin-top: 10px;
+    text-align: right;
+}
+
+.accept-button {
+    padding: 8px 15px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-size: 14px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.accept-button:hover {
+    background-color: #1c7d31;
+}
+
+/* Responsive design */
+@media screen and (max-width: 768px) {
+    h1 {
+        font-size: 24px;
+    }
+
+    .action-button, .accept-button {
+        font-size: 14px;
+        padding: 10px;
+    }
+
+    .application-card {
+        padding: 10px;
+    }
+
+    .application-card p {
+        font-size: 14px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    h1 {
+        font-size: 20px;
+    }
+
+    .action-button, .accept-button {
+        font-size: 12px;
+        padding: 8px;
+    }
+
+    .application-card {
+        padding: 8px;
+    }
+
+    .application-card p {
+        font-size: 12px;
+    }
+}

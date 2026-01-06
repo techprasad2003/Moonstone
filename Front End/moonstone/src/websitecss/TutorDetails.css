@@ -1,0 +1,124 @@
+/* Tutor Details Section */
+.tutor-details {
+  padding: 40px 20px;
+  background-color: rgb(236, 227, 227);
+}
+
+.tutor-details-container {
+  display: flex;
+  flex-wrap: wrap; /* Allow stacking on smaller screens */
+  align-items: center;
+  justify-content: center;
+  gap: 30px; /* Space between elements */
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/* Tutor Image */
+.tutor-details-image {
+  flex: 1 1 40%; /* Take 40% width or adjust based on screen size */
+  max-width: 400px;
+  text-align: center;
+}
+
+.tutor-details-img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px; /* Rounded corners */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+}
+
+/* Tutor Information */
+.tutor-details-info {
+  flex: 1 1 50%; /* Take 50% width or adjust based on screen size */
+  background-color: rgb(236, 227, 227);;
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+}
+
+.tutor-details-info h2 {
+  font-size: 1.8rem;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.tutor-details-info h3 {
+  margin-top: 20px;
+  font-size: 1.4rem;
+  color: #444;
+}
+
+.tutor-details-info p {
+  color: #555;
+  line-height: 1.6;
+  margin: 15px 0;
+}
+
+.tutor-details-info ul {
+  list-style: disc;
+  padding-left: 20px;
+  margin: 15px 0;
+}
+
+.tutor-details-info ul li {
+  margin-bottom: 10px;
+  text-align: left;
+}
+
+.tutor-details-button-container {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.tutor-details-button {
+  background-color: #007bff;
+  color: #ffffff;
+  padding: 10px 20px;
+  font-size: 1rem;
+  border-radius: 5px;
+  text-decoration: none;
+  transition: background-color 0.3s, transform 0.2s;
+}
+
+.tutor-details-button:hover {
+  background-color: #0056b3;
+  transform: scale(1.05);
+}
+
+.tutor-details-button:active {
+  background-color: #004494;
+  transform: scale(1);
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .tutor-details-container {
+    flex-direction: column; /* Stack image and info vertically */
+    text-align: center; /* Center-align content */
+  }
+
+  .tutor-details-info {
+    padding: 15px;
+    text-align: left; /* Align text properly */
+  }
+
+  .tutor-details-image {
+    max-width: 100%; /* Full width for small screens */
+  }
+}
+
+@media (max-width: 480px) {
+  .tutor-details-info h2 {
+    font-size: 1.4rem;
+  }
+
+  .tutor-details-info h3 {
+    font-size: 1.2rem;
+  }
+
+  .tutor-details-info p,
+  .tutor-details-info ul li {
+    font-size: 0.9rem;
+  }
+}

@@ -1,0 +1,144 @@
+.remove-candidate-container {
+  padding: 20px;
+  max-width: 600px;
+  margin: 0 auto;
+  margin-top: 30px;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.filters {
+  display: flex;
+  flex-direction: column; /* Ensure dropdowns stack vertically */
+  gap: 15px; /* Add space between elements */
+  margin-bottom: 20px;
+}
+
+.dropdown {
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  width: 100%; /* Full width for consistent appearance */
+}
+
+.search-button {
+  padding: 12px 20px;
+  font-size: 16px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  width: 100%; /* Match dropdown width */
+}
+
+.search-button:hover {
+  background-color: #0056b3;
+}
+
+.student-list {
+  list-style-type: none;
+  padding: 0;
+  margin: 20px 0;
+}
+
+.student-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  margin-bottom: 10px;
+  background-color: #fff;
+}
+
+.student-item span {
+  flex-grow: 1;
+  margin-right: 10px;
+  color: #555;
+}
+
+.remove-button {
+  padding: 8px 16px;
+  font-size: 14px;
+  background-color: #dc3545;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.remove-button:hover {
+  background-color: #c82333;
+}
+
+.remove-all-button {
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #c82333;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  width: 100%; /* Full width */
+  margin-bottom: 20px;
+}
+
+.remove-all-button:hover {
+  background-color: #e0a800;
+}
+
+/* Responsive Design */
+
+@media (max-width: 768px) {
+  .filters {
+    gap: 10px; /* Adjust spacing for smaller screens */
+  }
+
+  .remove-candidate-container {
+    padding: 15px;
+    margin: 15px;
+  }
+
+  .dropdown,
+  .search-button,
+  .remove-all-button {
+    width: 100%;
+  }
+}
+
+@media (max-width: 480px) {
+  .remove-candidate-container {
+    padding: 15px;
+    margin: 15px;
+  }
+
+  h2 {
+    font-size: 20px;
+  }
+
+  .dropdown,
+  .search-button,
+  .remove-all-button {
+    font-size: 14px;
+    padding: 10px;
+  }
+
+  .student-item {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .student-item span {
+    margin-bottom: 10px;
+  }
+}
